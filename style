@@ -1,4 +1,22 @@
 /* Reset some default browser styles */
+* Logo Styles */
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+}
+
+/* Responsive logo */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 150px; /* Smaller logo on mobile devices */
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
